@@ -7,6 +7,7 @@ import csv
 from datetime import datetime
 import os
 import matplotlib.pyplot as plt
+import pandas as pd
 
 local_config.init_config()
 local_config.set_data_path("C:/Users/IljaKnis/Hyperband-UTS/yahpo_data")
@@ -18,12 +19,17 @@ s_max = int(np.floor(np.log(R) / np.log(eta)))
 n_max = int(np.ceil((s_max + 1) * R / (eta ** s_max)))
 
 bench = BenchmarkSet('rbv2_super')
-#TODO: RBV2_Super beschreiben in Bachelorarbeiten
+#TODO: RBV2_Super beschreiben in Bachelorarbeit
 config_space = bench.get_opt_space()
 
 losses_sh = []
 losses_uts = []
-
+cumulative_sh_wins = 0
+cumulative_uts_wins = 0
+total_runs = 0
+sh_win_percentages = []
+uts_win_percentages = []
+win_data_file = "cumulative_wins.csv"
 sh_wins = 0
 uts_wins = 0
 
@@ -34,6 +40,27 @@ uts_losses_per_iter = []  # Collect losses per iteration for UTS
 
 def get_hyperparameter_configurations(n):
     return [config_space.sample_configuration() for _ in range(n)]
+
+def load_previous_win_data():
+    global cumulative_sh_wins, cumulative_uts_wins, total_runs
+    if os.path.exists(win_data_file):
+        data = pd.read_csv(win_data_file)
+        cumulative_sh_wins = data['SH Wins'].iloc[-1]
+        cumulative_uts_wins = data['UTS Wins'].iloc[-1]
+        total_runs = data['Total Runs'].iloc[-1]
+        print(f"Loaded previous win data: SH Wins={cumulative_sh_wins}, UTS Wins={cumulative_uts_wins}, Total Runs={total_runs}")
+
+def save_win_data():
+    data = {
+        "SH Wins": [cumulative_sh_wins],
+        "UTS Wins": [cumulative_uts_wins],
+        "Total Runs": [total_runs]
+    }
+    df = pd.DataFrame(data)
+    if os.path.exists(win_data_file):
+        df.to_csv(win_data_file, mode='a', header=False, index=False)
+    else:
+        df.to_csv(win_data_file, mode='w', header=True, index=False)
 
 ## Dynamically sample configurations for both methods in each stage
 #def sample_configs(stage, n):
@@ -129,6 +156,8 @@ def hyperband(R, eta, sample_configs):
                 log_run("UTS", s, i, "N/A", "No valid configurations", "Skipped")
                 continue
 
+            uts_losses_per_iter.append(L[0])  # Store the loss per iteration
+
             reward = -L[0]
             n_pulls[arm_indices] += 1
             mu[arm_indices] = (mu[arm_indices] * (n_pulls[arm_indices] - 1) + reward) / n_pulls[arm_indices]
@@ -174,6 +203,8 @@ def hyperband_with_successive_halving(R, eta, sample_configs):
                 log_run("Successive Halving", s, i, "N/A", "No valid configurations", "Skipped")
                 continue
 
+            sh_losses_per_iter.append(min(L))  # Store the loss per iteration
+
             k = int(np.floor(n_i / eta))
             discarded_configs = T[k:]  # Configurations that will be discarded
             T = top_k(T, L, k)
@@ -206,6 +237,7 @@ best_overall_loss = float('inf')
 best_version = ""
 
 for i in range(runs):
+    load_previous_win_data()
     print(f"Run {i + 1} of 10 with Successive Halving")
     best_config_sh, best_loss_sh = hyperband_with_successive_halving(R, eta, sample_configs)
     losses_sh.append(best_loss_sh)
@@ -230,13 +262,41 @@ for i in range(runs):
         best_overall_config = best_config_uts
         best_version = "UTS"
 
+    #TODO: further integration of TIE
+    if best_loss_sh == best_loss_uts:
+        best_overall_loss = best_loss_sh  # or best_loss_uts, as they are equal
+        best_overall_config = best_config_sh  # or best_config_uts, as they are identical
+        best_version = "Tie (SH and UTS)"
+
     best_loss_sh = losses_sh[i]
     best_loss_uts = losses_uts[i]
 
+    # Determine which method wins and update cumulative wins
     if best_loss_sh < best_loss_uts:
         sh_wins += 1
-    else:
+        cumulative_sh_wins += 1
+    elif best_loss_uts < best_loss_sh:
         uts_wins += 1
+        cumulative_uts_wins += 1
+    else:  # It's a tie
+        sh_wins += 0.5
+        uts_wins += 0.5
+        cumulative_sh_wins += 0.5
+        cumulative_uts_wins += 0.5
+
+    total_runs += 1
+
+    # Calculate the cumulative win percentages
+    sh_win_percentage = (cumulative_sh_wins / total_runs) * 100
+    uts_win_percentage = (cumulative_uts_wins / total_runs) * 100
+
+    # Store the percentages for plotting
+    sh_win_percentages.append(sh_win_percentage)
+    uts_win_percentages.append(uts_win_percentage)
+
+    print(f"Run {total_runs}: SH Win Percentage = {sh_win_percentage:.2f}%, UTS Win Percentage = {uts_win_percentage:.2f}%")
+
+    save_win_data()
 
 print(f"\nBest overall configuration: {best_overall_config}")
 print(f"Best overall loss: {best_overall_loss}")
@@ -262,8 +322,10 @@ mean_delta_loss = np.mean(delta_losses)
 print(f"Mean Delta Loss (SH - UTS): {mean_delta_loss}")
 
 #TODO: Standardabweichung kalkulieren
-std_loss_sh = np.std(losses_sh)
-std_loss_uts = np.std(losses_uts)
+#std_loss_sh = np.std(losses_sh)
+std_loss_sh = np.std(sh_losses_per_iter)
+#std_loss_uts = np.std(losses_uts)
+std_loss_uts = np.std(uts_losses_per_iter)
 print(f"Standard Deviation of Loss for SH: {std_loss_sh}")
 print(f"Standard Deviation of Loss for UTS: {std_loss_uts}")
 
@@ -278,7 +340,7 @@ plt.xlabel('Iteration')
 plt.ylabel('Loss')
 plt.title('Loss per Iteration for SH and UTS')
 plt.legend()
-#plt.show()
+plt.show()
 
 #TODO: wie viel Prozent die eine Methode besser als die andere
 improvements = [
@@ -289,4 +351,14 @@ avg_improvement = np.mean(improvements)
 print(f"Average Improvement Percentage: {avg_improvement:.2f}%")
 
 #TODO: Plot wie oft UTS gewonnen vs wie oft SH gewonnen, Standardabweichung
+# Plot cumulative win percentages over time
+plt.plot(range(1, len(sh_win_percentages) + 1), sh_win_percentages, label='SH Win Percentage', marker='o')
+plt.plot(range(1, len(uts_win_percentages) + 1), uts_win_percentages, label='UTS Win Percentage', marker='o')
+plt.xlabel('Run')
+plt.ylabel('Win Percentage (%)')
+plt.title(f'Cumulative Win Percentage Over {total_runs} Runs for SH and UTS')
+plt.legend()
+plt.grid(True)
+plt.show()
+
 #TODO: Auswertungen mehrfacher Durchläufe in Appendix möglicherweise
