@@ -1,0 +1,2683 @@
+Date,Time,Version,Stage,Iteration,Status,Configuration,Evaluation,Computation Time
+2024-10-22,13:45:09,Successive Halving,6,0,Initial configuration,"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 90,
+  'ranger.mtry.power': 0.9791917086861409,
+  'ranger.num.random.splits': 38,
+  'ranger.num.trees': 1327,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.8678655352928691,
+  'ranger.splitrule': 'extratrees',
+  'repl': 1,
+  'task_id': '40981',
+  'trainsize': 0.32514626395817503,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,6,0,Discarded,"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 90,
+  'ranger.mtry.power': 0.9791917086861409,
+  'ranger.num.random.splits': 38,
+  'ranger.num.trees': 1327,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.8678655352928691,
+  'ranger.splitrule': 'extratrees',
+  'repl': 1,
+  'task_id': '40981',
+  'trainsize': 0.32514626395817503,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,6,0,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,6,1,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,3,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,4,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,5,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,6,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,0,Initial configuration,"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 4,
+  'svm.cost': 0.04488628967393827,
+  'svm.degree': 3,
+  'svm.kernel': 'polynomial',
+  'svm.tolerance': 0.7837571363161469,
+  'task_id': '1497',
+  'trainsize': 0.6284061638105254,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,5,0,Discarded,"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 4,
+  'svm.cost': 0.04488628967393827,
+  'svm.degree': 3,
+  'svm.kernel': 'polynomial',
+  'svm.tolerance': 0.7837571363161469,
+  'task_id': '1497',
+  'trainsize': 0.6284061638105254,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,5,0,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,5,1,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,3,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,4,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,5,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,4,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 2,
+  'task_id': '23',
+  'trainsize': 0.3100722505849649,
+  'xgboost.alpha': 0.0015958009056027797,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 5.975153848367691,
+  'xgboost.nrounds': 1012,
+  'xgboost.subsample': 0.7800081791724887,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,4,0,Discarded,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 2,
+  'task_id': '23',
+  'trainsize': 0.3100722505849649,
+  'xgboost.alpha': 0.0015958009056027797,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 5.975153848367691,
+  'xgboost.nrounds': 1012,
+  'xgboost.subsample': 0.7800081791724887,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,4,0,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,4,1,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,4,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,4,3,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,4,4,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,3,0,Initial configuration,"Configuration(values={
+  'aknn.M': 38,
+  'aknn.distance': 'l2',
+  'aknn.ef': 115,
+  'aknn.ef_construction': 225,
+  'aknn.k': 9,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '1067',
+  'trainsize': 0.6226594894115078,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,3,0,Discarded,"Configuration(values={
+  'aknn.M': 38,
+  'aknn.distance': 'l2',
+  'aknn.ef': 115,
+  'aknn.ef_construction': 225,
+  'aknn.k': 9,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '1067',
+  'trainsize': 0.6226594894115078,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,3,0,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,3,1,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,3,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,3,3,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,2,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '41169',
+  'trainsize': 0.9349564802949124,
+  'xgboost.alpha': 185.95535123092196,
+  'xgboost.booster': 'dart',
+  'xgboost.colsample_bylevel': 0.20521247521375852,
+  'xgboost.colsample_bytree': 0.3057319457072208,
+  'xgboost.eta': 0.11099295886927506,
+  'xgboost.gamma': 0.0004297778942122169,
+  'xgboost.lambda': 697.9633000225966,
+  'xgboost.max_depth': 15,
+  'xgboost.min_child_weight': 37.419508863902664,
+  'xgboost.nrounds': 11,
+  'xgboost.rate_drop': 0.4635045031205237,
+  'xgboost.skip_drop': 0.8269210373756098,
+  'xgboost.subsample': 0.8814526169923173,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,2,0,Initial configuration,"Configuration(values={
+  'glmnet.alpha': 0.06351136066819807,
+  'glmnet.s': 418.6189691834995,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '54',
+  'trainsize': 0.8743202525536107,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,2,0,Discarded,"Configuration(values={
+  'glmnet.alpha': 0.06351136066819807,
+  'glmnet.s': 418.6189691834995,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '54',
+  'trainsize': 0.8743202525536107,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,2,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.06351136066819807,
+  'glmnet.s': 418.6189691834995,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '54',
+  'trainsize': 0.8743202525536107,
+})
+",0.67842627
+2024-10-22,13:45:09,Successive Halving,2,1,Discarded,"Configuration(values={
+  'glmnet.alpha': 0.06351136066819807,
+  'glmnet.s': 418.6189691834995,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '54',
+  'trainsize': 0.8743202525536107,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,2,1,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,2,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,1,0,Initial configuration,"Configuration(values={
+  'aknn.M': 50,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 41,
+  'aknn.ef_construction': 89,
+  'aknn.k': 17,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 6,
+  'task_id': '1049',
+  'trainsize': 0.0766905214078745,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Initial configuration,"Configuration(values={
+  'glmnet.alpha': 0.431103651787767,
+  'glmnet.s': 0.01848458425373737,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 3,
+  'task_id': '41157',
+  'trainsize': 0.7633485111892699,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Initial configuration,"Configuration(values={
+  'glmnet.alpha': 0.1366013721884849,
+  'glmnet.s': 0.00455695786210601,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 1,
+  'task_id': '38',
+  'trainsize': 0.5945749746587519,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Initial configuration,"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.hist',
+  'ranger.min.node.size': 89,
+  'ranger.mtry.power': 0.25751780173110017,
+  'ranger.num.random.splits': 15,
+  'ranger.num.trees': 787,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.4518793460912228,
+  'ranger.splitrule': 'extratrees',
+  'repl': 3,
+  'task_id': '307',
+  'trainsize': 0.5029057379365094,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Discarded,"Configuration(values={
+  'glmnet.alpha': 0.1366013721884849,
+  'glmnet.s': 0.00455695786210601,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 1,
+  'task_id': '38',
+  'trainsize': 0.5945749746587519,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Discarded,"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.hist',
+  'ranger.min.node.size': 89,
+  'ranger.mtry.power': 0.25751780173110017,
+  'ranger.num.random.splits': 15,
+  'ranger.num.trees': 787,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.4518793460912228,
+  'ranger.splitrule': 'extratrees',
+  'repl': 3,
+  'task_id': '307',
+  'trainsize': 0.5029057379365094,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.1366013721884849,
+  'glmnet.s': 0.00455695786210601,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 1,
+  'task_id': '38',
+  'trainsize': 0.5945749746587519,
+})
+",0.1846518
+2024-10-22,13:45:09,Successive Halving,1,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 50,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 41,
+  'aknn.ef_construction': 89,
+  'aknn.k': 17,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 6,
+  'task_id': '1049',
+  'trainsize': 0.0766905214078745,
+})
+",0.4267875
+2024-10-22,13:45:09,Successive Halving,1,1,Discarded,"Configuration(values={
+  'aknn.M': 50,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 41,
+  'aknn.ef_construction': 89,
+  'aknn.k': 17,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 6,
+  'task_id': '1049',
+  'trainsize': 0.0766905214078745,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,1,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.1366013721884849,
+  'glmnet.s': 0.00455695786210601,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 1,
+  'task_id': '38',
+  'trainsize': 0.5945749746587519,
+})
+",0.1846518
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 6,
+  'task_id': '1493',
+  'trainsize': 0.9600047485116953,
+  'xgboost.alpha': 0.7864605686019891,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.057695047946855434,
+  'xgboost.colsample_bytree': 0.934786085607472,
+  'xgboost.eta': 0.5989523627557721,
+  'xgboost.gamma': 0.06881647455898814,
+  'xgboost.lambda': 0.038139669969368836,
+  'xgboost.max_depth': 4,
+  'xgboost.min_child_weight': 17.803732609133842,
+  'xgboost.nrounds': 20,
+  'xgboost.subsample': 0.5895238388089902,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'aknn.M': 48,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 32,
+  'aknn.ef_construction': 345,
+  'aknn.k': 1,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'task_id': '1478',
+  'trainsize': 0.9501989718529454,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 9,
+  'task_id': '46',
+  'trainsize': 0.8014024360517079,
+  'xgboost.alpha': 2.88526224147548,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 124.63898340251897,
+  'xgboost.nrounds': 86,
+  'xgboost.subsample': 0.895262682484939,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 8,
+  'task_id': '40984',
+  'trainsize': 0.053742181701603706,
+  'xgboost.alpha': 256.95831576407016,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.9180880891734027,
+  'xgboost.colsample_bytree': 0.39872977753354866,
+  'xgboost.eta': 0.014199206591029757,
+  'xgboost.gamma': 0.40183321981673537,
+  'xgboost.lambda': 3.0681695904682225,
+  'xgboost.max_depth': 8,
+  'xgboost.min_child_weight': 13.218668876858779,
+  'xgboost.nrounds': 1307,
+  'xgboost.subsample': 0.7356053139541665,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 1,
+  'rpart.cp': 0.008936687732593441,
+  'rpart.maxdepth': 25,
+  'rpart.minbucket': 45,
+  'rpart.minsplit': 48,
+  'task_id': '1461',
+  'trainsize': 0.1646556048976993,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 5,
+  'rpart.cp': 0.020348239405087398,
+  'rpart.maxdepth': 4,
+  'rpart.minbucket': 23,
+  'rpart.minsplit': 81,
+  'task_id': '1515',
+  'trainsize': 0.4630461776157476,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 3,
+  'task_id': '1462',
+  'trainsize': 0.5675219174103088,
+  'xgboost.alpha': 0.0009137582093867213,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.003011057786103802,
+  'xgboost.nrounds': 10,
+  'xgboost.subsample': 0.964483986996247,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Discarded,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 8,
+  'task_id': '40984',
+  'trainsize': 0.053742181701603706,
+  'xgboost.alpha': 256.95831576407016,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.9180880891734027,
+  'xgboost.colsample_bytree': 0.39872977753354866,
+  'xgboost.eta': 0.014199206591029757,
+  'xgboost.gamma': 0.40183321981673537,
+  'xgboost.lambda': 3.0681695904682225,
+  'xgboost.max_depth': 8,
+  'xgboost.min_child_weight': 13.218668876858779,
+  'xgboost.nrounds': 1307,
+  'xgboost.subsample': 0.7356053139541665,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Discarded,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 1,
+  'rpart.cp': 0.008936687732593441,
+  'rpart.maxdepth': 25,
+  'rpart.minbucket': 45,
+  'rpart.minsplit': 48,
+  'task_id': '1461',
+  'trainsize': 0.1646556048976993,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Discarded,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 5,
+  'rpart.cp': 0.020348239405087398,
+  'rpart.maxdepth': 4,
+  'rpart.minbucket': 23,
+  'rpart.minsplit': 81,
+  'task_id': '1515',
+  'trainsize': 0.4630461776157476,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Discarded,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 3,
+  'task_id': '1462',
+  'trainsize': 0.5675219174103088,
+  'xgboost.alpha': 0.0009137582093867213,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.003011057786103802,
+  'xgboost.nrounds': 10,
+  'xgboost.subsample': 0.964483986996247,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 48,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 32,
+  'aknn.ef_construction': 345,
+  'aknn.k': 1,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'task_id': '1478',
+  'trainsize': 0.9501989718529454,
+})
+",0.23574525
+2024-10-22,13:45:09,Successive Halving,0,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 1,
+  'rpart.cp': 0.008936687732593441,
+  'rpart.maxdepth': 25,
+  'rpart.minbucket': 45,
+  'rpart.minsplit': 48,
+  'task_id': '1461',
+  'trainsize': 0.1646556048976993,
+})
+",0.30322123
+2024-10-22,13:45:09,Successive Halving,0,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 3,
+  'task_id': '1462',
+  'trainsize': 0.5675219174103088,
+  'xgboost.alpha': 0.0009137582093867213,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.003011057786103802,
+  'xgboost.nrounds': 10,
+  'xgboost.subsample': 0.964483986996247,
+})
+",0.51075685
+2024-10-22,13:45:09,Successive Halving,Final,0,Best configuration,"Configuration(values={
+  'glmnet.alpha': 0.1366013721884849,
+  'glmnet.s': 0.00455695786210601,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 1,
+  'task_id': '38',
+  'trainsize': 0.5945749746587519,
+})
+",0.1846518
+2024-10-22,13:45:09,UTS,6,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 3,
+  'task_id': '300',
+  'trainsize': 0.11460004472598652,
+  'xgboost.alpha': 0.01970791327522016,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.21823246950854208,
+  'xgboost.colsample_bytree': 0.48592188066439057,
+  'xgboost.eta': 0.6778381984121564,
+  'xgboost.gamma': 7.056987259305003e-05,
+  'xgboost.lambda': 219.0416497666543,
+  'xgboost.max_depth': 13,
+  'xgboost.min_child_weight': 8.373566436665627,
+  'xgboost.nrounds': 1624,
+  'xgboost.subsample': 0.6281619213484384,
+})
+",1.0962989
+2024-10-22,13:45:09,UTS,6,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 3,
+  'task_id': '300',
+  'trainsize': 0.11460004472598652,
+  'xgboost.alpha': 0.01970791327522016,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.21823246950854208,
+  'xgboost.colsample_bytree': 0.48592188066439057,
+  'xgboost.eta': 0.6778381984121564,
+  'xgboost.gamma': 7.056987259305003e-05,
+  'xgboost.lambda': 219.0416497666543,
+  'xgboost.max_depth': 13,
+  'xgboost.min_child_weight': 8.373566436665627,
+  'xgboost.nrounds': 1624,
+  'xgboost.subsample': 0.6281619213484384,
+})
+",1.0962989
+2024-10-22,13:45:09,UTS,6,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 3,
+  'task_id': '300',
+  'trainsize': 0.11460004472598652,
+  'xgboost.alpha': 0.01970791327522016,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.21823246950854208,
+  'xgboost.colsample_bytree': 0.48592188066439057,
+  'xgboost.eta': 0.6778381984121564,
+  'xgboost.gamma': 7.056987259305003e-05,
+  'xgboost.lambda': 219.0416497666543,
+  'xgboost.max_depth': 13,
+  'xgboost.min_child_weight': 8.373566436665627,
+  'xgboost.nrounds': 1624,
+  'xgboost.subsample': 0.6281619213484384,
+})
+",1.0962989
+2024-10-22,13:45:09,UTS,6,3,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 3,
+  'task_id': '300',
+  'trainsize': 0.11460004472598652,
+  'xgboost.alpha': 0.01970791327522016,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.21823246950854208,
+  'xgboost.colsample_bytree': 0.48592188066439057,
+  'xgboost.eta': 0.6778381984121564,
+  'xgboost.gamma': 7.056987259305003e-05,
+  'xgboost.lambda': 219.0416497666543,
+  'xgboost.max_depth': 13,
+  'xgboost.min_child_weight': 8.373566436665627,
+  'xgboost.nrounds': 1624,
+  'xgboost.subsample': 0.6281619213484384,
+})
+",1.0962989
+2024-10-22,13:45:09,UTS,6,4,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 3,
+  'task_id': '300',
+  'trainsize': 0.11460004472598652,
+  'xgboost.alpha': 0.01970791327522016,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.21823246950854208,
+  'xgboost.colsample_bytree': 0.48592188066439057,
+  'xgboost.eta': 0.6778381984121564,
+  'xgboost.gamma': 7.056987259305003e-05,
+  'xgboost.lambda': 219.0416497666543,
+  'xgboost.max_depth': 13,
+  'xgboost.min_child_weight': 8.373566436665627,
+  'xgboost.nrounds': 1624,
+  'xgboost.subsample': 0.6281619213484384,
+})
+",1.0962989
+2024-10-22,13:45:09,UTS,6,5,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 3,
+  'task_id': '300',
+  'trainsize': 0.11460004472598652,
+  'xgboost.alpha': 0.01970791327522016,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.21823246950854208,
+  'xgboost.colsample_bytree': 0.48592188066439057,
+  'xgboost.eta': 0.6778381984121564,
+  'xgboost.gamma': 7.056987259305003e-05,
+  'xgboost.lambda': 219.0416497666543,
+  'xgboost.max_depth': 13,
+  'xgboost.min_child_weight': 8.373566436665627,
+  'xgboost.nrounds': 1624,
+  'xgboost.subsample': 0.6281619213484384,
+})
+",1.0962989
+2024-10-22,13:45:09,UTS,6,6,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 3,
+  'task_id': '300',
+  'trainsize': 0.11460004472598652,
+  'xgboost.alpha': 0.01970791327522016,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.21823246950854208,
+  'xgboost.colsample_bytree': 0.48592188066439057,
+  'xgboost.eta': 0.6778381984121564,
+  'xgboost.gamma': 7.056987259305003e-05,
+  'xgboost.lambda': 219.0416497666543,
+  'xgboost.max_depth': 13,
+  'xgboost.min_child_weight': 8.373566436665627,
+  'xgboost.nrounds': 1624,
+  'xgboost.subsample': 0.6281619213484384,
+})
+",1.0962989
+2024-10-22,13:45:09,UTS,5,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 2,
+  'rpart.cp': 0.49280056074142287,
+  'rpart.maxdepth': 22,
+  'rpart.minbucket': 11,
+  'rpart.minsplit': 47,
+  'task_id': '60',
+  'trainsize': 0.9004949689961007,
+})
+",1.1250489
+2024-10-22,13:45:09,UTS,5,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 2,
+  'rpart.cp': 0.49280056074142287,
+  'rpart.maxdepth': 22,
+  'rpart.minbucket': 11,
+  'rpart.minsplit': 47,
+  'task_id': '60',
+  'trainsize': 0.9004949689961007,
+})
+",1.1250489
+2024-10-22,13:45:09,UTS,5,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 2,
+  'rpart.cp': 0.49280056074142287,
+  'rpart.maxdepth': 22,
+  'rpart.minbucket': 11,
+  'rpart.minsplit': 47,
+  'task_id': '60',
+  'trainsize': 0.9004949689961007,
+})
+",1.1250489
+2024-10-22,13:45:09,UTS,5,3,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 2,
+  'rpart.cp': 0.49280056074142287,
+  'rpart.maxdepth': 22,
+  'rpart.minbucket': 11,
+  'rpart.minsplit': 47,
+  'task_id': '60',
+  'trainsize': 0.9004949689961007,
+})
+",1.1250489
+2024-10-22,13:45:09,UTS,5,4,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 2,
+  'rpart.cp': 0.49280056074142287,
+  'rpart.maxdepth': 22,
+  'rpart.minbucket': 11,
+  'rpart.minsplit': 47,
+  'task_id': '60',
+  'trainsize': 0.9004949689961007,
+})
+",1.1250489
+2024-10-22,13:45:09,UTS,5,5,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 2,
+  'rpart.cp': 0.49280056074142287,
+  'rpart.maxdepth': 22,
+  'rpart.minbucket': 11,
+  'rpart.minsplit': 47,
+  'task_id': '60',
+  'trainsize': 0.9004949689961007,
+})
+",1.1250489
+2024-10-22,13:45:09,UTS,4,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'svm.cost': 0.0014158361869036236,
+  'svm.gamma': 0.0006149346212954173,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.3762182940485567,
+  'task_id': '22',
+  'trainsize': 0.8685142730353725,
+})
+",1.9619759
+2024-10-22,13:45:09,UTS,4,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'svm.cost': 0.0014158361869036236,
+  'svm.gamma': 0.0006149346212954173,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.3762182940485567,
+  'task_id': '22',
+  'trainsize': 0.8685142730353725,
+})
+",1.9619759
+2024-10-22,13:45:09,UTS,4,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'svm.cost': 0.0014158361869036236,
+  'svm.gamma': 0.0006149346212954173,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.3762182940485567,
+  'task_id': '22',
+  'trainsize': 0.8685142730353725,
+})
+",1.9619759
+2024-10-22,13:45:09,UTS,4,3,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'svm.cost': 0.0014158361869036236,
+  'svm.gamma': 0.0006149346212954173,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.3762182940485567,
+  'task_id': '22',
+  'trainsize': 0.8685142730353725,
+})
+",1.9619759
+2024-10-22,13:45:09,UTS,4,4,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'svm.cost': 0.0014158361869036236,
+  'svm.gamma': 0.0006149346212954173,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.3762182940485567,
+  'task_id': '22',
+  'trainsize': 0.8685142730353725,
+})
+",1.9619759
+2024-10-22,13:45:09,UTS,3,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'task_id': '40994',
+  'trainsize': 0.3376092902453395,
+  'xgboost.alpha': 0.0044592416539213755,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.10402923928554923,
+  'xgboost.nrounds': 85,
+  'xgboost.subsample': 0.7004013319968029,
+})
+",0.30887106
+2024-10-22,13:45:09,UTS,3,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'task_id': '40994',
+  'trainsize': 0.3376092902453395,
+  'xgboost.alpha': 0.0044592416539213755,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.10402923928554923,
+  'xgboost.nrounds': 85,
+  'xgboost.subsample': 0.7004013319968029,
+})
+",0.30887106
+2024-10-22,13:45:09,UTS,3,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'task_id': '40994',
+  'trainsize': 0.3376092902453395,
+  'xgboost.alpha': 0.0044592416539213755,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.10402923928554923,
+  'xgboost.nrounds': 85,
+  'xgboost.subsample': 0.7004013319968029,
+})
+",0.30887106
+2024-10-22,13:45:09,UTS,3,3,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'task_id': '40994',
+  'trainsize': 0.3376092902453395,
+  'xgboost.alpha': 0.0044592416539213755,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.10402923928554923,
+  'xgboost.nrounds': 85,
+  'xgboost.subsample': 0.7004013319968029,
+})
+",0.30887106
+2024-10-22,13:45:09,UTS,2,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.6736688431360802,
+  'glmnet.s': 0.00975647790409219,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 9,
+  'task_id': '40984',
+  'trainsize': 0.5663249809234935,
+})
+",1.787681
+2024-10-22,13:45:09,UTS,2,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 7,
+  'rpart.cp': 0.0012889846790535944,
+  'rpart.maxdepth': 20,
+  'rpart.minbucket': 50,
+  'rpart.minsplit': 35,
+  'task_id': '42',
+  'trainsize': 0.63365008648428,
+})
+",1.3552108
+2024-10-22,13:45:09,UTS,2,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 7,
+  'rpart.cp': 0.0012889846790535944,
+  'rpart.maxdepth': 20,
+  'rpart.minbucket': 50,
+  'rpart.minsplit': 35,
+  'task_id': '42',
+  'trainsize': 0.63365008648428,
+})
+",1.3552108
+2024-10-22,13:45:09,UTS,1,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.median',
+  'ranger.min.node.size': 53,
+  'ranger.mtry.power': 0.37815508580126234,
+  'ranger.num.trees': 1491,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.48699276107842604,
+  'ranger.splitrule': 'gini',
+  'repl': 7,
+  'task_id': '1063',
+  'trainsize': 0.19155577499914342,
+})
+",0.46099404
+2024-10-22,13:45:09,UTS,1,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 3,
+  'task_id': '1462',
+  'trainsize': 0.7790653312220158,
+  'xgboost.alpha': 0.2701719483571391,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.6023646534784447,
+  'xgboost.colsample_bytree': 0.6881693184837586,
+  'xgboost.eta': 0.09678792816692408,
+  'xgboost.gamma': 2.3367161500908424,
+  'xgboost.lambda': 26.390766649260513,
+  'xgboost.max_depth': 9,
+  'xgboost.min_child_weight': 6.985166949147359,
+  'xgboost.nrounds': 90,
+  'xgboost.subsample': 0.3747753588464423,
+})
+",0.25392118
+2024-10-22,13:45:09,UTS,0,0,Evaluated (Computation Time: 0.02s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 10,
+  'task_id': '60',
+  'trainsize': 0.31481094884740035,
+  'xgboost.alpha': 2.886912693955914,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.01138650916961109,
+  'xgboost.nrounds': 1183,
+  'xgboost.subsample': 0.5519345233166701,
+})
+",0.83755285
+2024-10-22,13:45:09,UTS,Final,0,Best configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 3,
+  'task_id': '1462',
+  'trainsize': 0.7790653312220158,
+  'xgboost.alpha': 0.2701719483571391,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.6023646534784447,
+  'xgboost.colsample_bytree': 0.6881693184837586,
+  'xgboost.eta': 0.09678792816692408,
+  'xgboost.gamma': 2.3367161500908424,
+  'xgboost.lambda': 26.390766649260513,
+  'xgboost.max_depth': 9,
+  'xgboost.min_child_weight': 6.985166949147359,
+  'xgboost.nrounds': 90,
+  'xgboost.subsample': 0.3747753588464423,
+})
+",0.25392118
+2024-10-22,13:45:09,Successive Halving,6,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 10,
+  'task_id': '41164',
+  'trainsize': 0.21043011802832928,
+  'xgboost.alpha': 30.292539401246604,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.9639425517408241,
+  'xgboost.colsample_bytree': 0.47691470523491203,
+  'xgboost.eta': 0.08544737189072375,
+  'xgboost.gamma': 0.002733121267025709,
+  'xgboost.lambda': 0.006210061856228798,
+  'xgboost.max_depth': 9,
+  'xgboost.min_child_weight': 44.062292736363126,
+  'xgboost.nrounds': 8,
+  'xgboost.subsample': 0.5976393126403163,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,6,0,Discarded,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 10,
+  'task_id': '41164',
+  'trainsize': 0.21043011802832928,
+  'xgboost.alpha': 30.292539401246604,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.9639425517408241,
+  'xgboost.colsample_bytree': 0.47691470523491203,
+  'xgboost.eta': 0.08544737189072375,
+  'xgboost.gamma': 0.002733121267025709,
+  'xgboost.lambda': 0.006210061856228798,
+  'xgboost.max_depth': 9,
+  'xgboost.min_child_weight': 44.062292736363126,
+  'xgboost.nrounds': 8,
+  'xgboost.subsample': 0.5976393126403163,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,6,0,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,6,1,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,3,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,4,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,5,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,6,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,0,Initial configuration,"Configuration(values={
+  'glmnet.alpha': 0.05109667562408027,
+  'glmnet.s': 12.210069265514683,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 1,
+  'task_id': '40966',
+  'trainsize': 0.4839753495272219,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,5,0,Discarded,"Configuration(values={
+  'glmnet.alpha': 0.05109667562408027,
+  'glmnet.s': 12.210069265514683,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 1,
+  'task_id': '40966',
+  'trainsize': 0.4839753495272219,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,5,0,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,5,1,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,3,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,4,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,5,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,4,0,Initial configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 9,
+  'rpart.cp': 0.39846850667256617,
+  'rpart.maxdepth': 7,
+  'rpart.minbucket': 60,
+  'rpart.minsplit': 16,
+  'task_id': '46',
+  'trainsize': 0.6230804231097076,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,4,0,Discarded,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 9,
+  'rpart.cp': 0.39846850667256617,
+  'rpart.maxdepth': 7,
+  'rpart.minbucket': 60,
+  'rpart.minsplit': 16,
+  'task_id': '46',
+  'trainsize': 0.6230804231097076,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,4,0,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,4,1,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,4,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,4,3,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,4,4,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,3,0,Initial configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 2,
+  'rpart.cp': 0.3762803189251892,
+  'rpart.maxdepth': 11,
+  'rpart.minbucket': 17,
+  'rpart.minsplit': 84,
+  'task_id': '41143',
+  'trainsize': 0.044524049880804155,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,3,0,Discarded,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 2,
+  'rpart.cp': 0.3762803189251892,
+  'rpart.maxdepth': 11,
+  'rpart.minbucket': 17,
+  'rpart.minsplit': 84,
+  'task_id': '41143',
+  'trainsize': 0.044524049880804155,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,3,0,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,3,1,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,3,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,3,3,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,2,0,Initial configuration,"Configuration(values={
+  'glmnet.alpha': 0.4259996330199811,
+  'glmnet.s': 0.012421955643527638,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 3,
+  'task_id': '375',
+  'trainsize': 0.8467663989082923,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,2,0,Initial configuration,"Configuration(values={
+  'aknn.M': 29,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 147,
+  'aknn.ef_construction': 356,
+  'aknn.k': 21,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 10,
+  'task_id': '50',
+  'trainsize': 0.7424091912626828,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,2,0,Discarded,"Configuration(values={
+  'aknn.M': 29,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 147,
+  'aknn.ef_construction': 356,
+  'aknn.k': 21,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 10,
+  'task_id': '50',
+  'trainsize': 0.7424091912626828,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,2,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 29,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 147,
+  'aknn.ef_construction': 356,
+  'aknn.k': 21,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 10,
+  'task_id': '50',
+  'trainsize': 0.7424091912626828,
+})
+",0.19727859
+2024-10-22,13:45:09,Successive Halving,2,1,Discarded,"Configuration(values={
+  'aknn.M': 29,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 147,
+  'aknn.ef_construction': 356,
+  'aknn.k': 21,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 10,
+  'task_id': '50',
+  'trainsize': 0.7424091912626828,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,2,1,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,2,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,1,0,Initial configuration,"Configuration(values={
+  'glmnet.alpha': 0.820674471402356,
+  'glmnet.s': 3.2024037896399165,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'task_id': '1590',
+  'trainsize': 0.6624572944698094,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 8,
+  'task_id': '1476',
+  'trainsize': 0.5513584729567332,
+  'xgboost.alpha': 1.1642615785710169,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.4497213289535415,
+  'xgboost.nrounds': 51,
+  'xgboost.subsample': 0.9872741456222132,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '1461',
+  'trainsize': 0.7043433229333943,
+  'xgboost.alpha': 0.14581166312330085,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.0017495934900801028,
+  'xgboost.nrounds': 917,
+  'xgboost.subsample': 0.5708831139177502,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Initial configuration,"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 5,
+  'svm.cost': 0.40643589935959645,
+  'svm.gamma': 3030.501386067773,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.027569022092727397,
+  'task_id': '4154',
+  'trainsize': 0.31344582312352953,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Discarded,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '1461',
+  'trainsize': 0.7043433229333943,
+  'xgboost.alpha': 0.14581166312330085,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.0017495934900801028,
+  'xgboost.nrounds': 917,
+  'xgboost.subsample': 0.5708831139177502,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Discarded,"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 5,
+  'svm.cost': 0.40643589935959645,
+  'svm.gamma': 3030.501386067773,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.027569022092727397,
+  'task_id': '4154',
+  'trainsize': 0.31344582312352953,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 5,
+  'svm.cost': 0.40643589935959645,
+  'svm.gamma': 3030.501386067773,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.027569022092727397,
+  'task_id': '4154',
+  'trainsize': 0.31344582312352953,
+})
+",0.012154462
+2024-10-22,13:45:09,Successive Halving,1,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '1461',
+  'trainsize': 0.7043433229333943,
+  'xgboost.alpha': 0.14581166312330085,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.0017495934900801028,
+  'xgboost.nrounds': 917,
+  'xgboost.subsample': 0.5708831139177502,
+})
+",0.3489742
+2024-10-22,13:45:09,Successive Halving,1,1,Discarded,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '1461',
+  'trainsize': 0.7043433229333943,
+  'xgboost.alpha': 0.14581166312330085,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.0017495934900801028,
+  'xgboost.nrounds': 917,
+  'xgboost.subsample': 0.5708831139177502,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,1,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 5,
+  'svm.cost': 0.40643589935959645,
+  'svm.gamma': 3030.501386067773,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.027569022092727397,
+  'task_id': '4154',
+  'trainsize': 0.31344582312352953,
+})
+",0.012154462
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.hist',
+  'ranger.min.node.size': 69,
+  'ranger.mtry.power': 0.027939286746366476,
+  'ranger.num.trees': 1134,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.7816804144083502,
+  'ranger.splitrule': 'gini',
+  'repl': 4,
+  'task_id': '41142',
+  'trainsize': 0.500102822074482,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '11',
+  'trainsize': 0.9820693198226862,
+  'xgboost.alpha': 113.43354500636505,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.0013380614140632993,
+  'xgboost.nrounds': 528,
+  'xgboost.subsample': 0.7219191579941563,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 5,
+  'task_id': '40978',
+  'trainsize': 0.8763051391890729,
+  'xgboost.alpha': 0.003304499315792675,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.9622407081127858,
+  'xgboost.colsample_bytree': 0.29542405625819507,
+  'xgboost.eta': 0.5712779644056233,
+  'xgboost.gamma': 8.007074562327852e-05,
+  'xgboost.lambda': 89.48116671190262,
+  'xgboost.max_depth': 7,
+  'xgboost.min_child_weight': 29.53901425992181,
+  'xgboost.nrounds': 12,
+  'xgboost.subsample': 0.2534476659054321,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 1,
+  'rpart.cp': 0.8685970677974771,
+  'rpart.maxdepth': 26,
+  'rpart.minbucket': 86,
+  'rpart.minsplit': 15,
+  'task_id': '31',
+  'trainsize': 0.620791006335457,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.hist',
+  'ranger.min.node.size': 47,
+  'ranger.mtry.power': 0.6538643407769807,
+  'ranger.num.trees': 462,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.4182233975322883,
+  'ranger.splitrule': 'gini',
+  'repl': 4,
+  'task_id': '40536',
+  'trainsize': 0.10432363012986477,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'rpart.cp': 0.06732408030358261,
+  'rpart.maxdepth': 30,
+  'rpart.minbucket': 8,
+  'rpart.minsplit': 17,
+  'task_id': '40536',
+  'trainsize': 0.3434187323027251,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 17,
+  'ranger.mtry.power': 0.9231536544078986,
+  'ranger.num.random.splits': 23,
+  'ranger.num.trees': 1562,
+  'ranger.respect.unordered.factors': 'order',
+  'ranger.sample.fraction': 0.3296657518034692,
+  'ranger.splitrule': 'extratrees',
+  'repl': 1,
+  'task_id': '23381',
+  'trainsize': 0.2872927277700731,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Discarded,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 1,
+  'rpart.cp': 0.8685970677974771,
+  'rpart.maxdepth': 26,
+  'rpart.minbucket': 86,
+  'rpart.minsplit': 15,
+  'task_id': '31',
+  'trainsize': 0.620791006335457,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Discarded,"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.hist',
+  'ranger.min.node.size': 47,
+  'ranger.mtry.power': 0.6538643407769807,
+  'ranger.num.trees': 462,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.4182233975322883,
+  'ranger.splitrule': 'gini',
+  'repl': 4,
+  'task_id': '40536',
+  'trainsize': 0.10432363012986477,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Discarded,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'rpart.cp': 0.06732408030358261,
+  'rpart.maxdepth': 30,
+  'rpart.minbucket': 8,
+  'rpart.minsplit': 17,
+  'task_id': '40536',
+  'trainsize': 0.3434187323027251,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Discarded,"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 17,
+  'ranger.mtry.power': 0.9231536544078986,
+  'ranger.num.random.splits': 23,
+  'ranger.num.trees': 1562,
+  'ranger.respect.unordered.factors': 'order',
+  'ranger.sample.fraction': 0.3296657518034692,
+  'ranger.splitrule': 'extratrees',
+  'repl': 1,
+  'task_id': '23381',
+  'trainsize': 0.2872927277700731,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.hist',
+  'ranger.min.node.size': 47,
+  'ranger.mtry.power': 0.6538643407769807,
+  'ranger.num.trees': 462,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.4182233975322883,
+  'ranger.splitrule': 'gini',
+  'repl': 4,
+  'task_id': '40536',
+  'trainsize': 0.10432363012986477,
+})
+",0.33774164
+2024-10-22,13:45:09,Successive Halving,0,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 5,
+  'task_id': '40978',
+  'trainsize': 0.8763051391890729,
+  'xgboost.alpha': 0.003304499315792675,
+  'xgboost.booster': 'gbtree',
+  'xgboost.colsample_bylevel': 0.9622407081127858,
+  'xgboost.colsample_bytree': 0.29542405625819507,
+  'xgboost.eta': 0.5712779644056233,
+  'xgboost.gamma': 8.007074562327852e-05,
+  'xgboost.lambda': 89.48116671190262,
+  'xgboost.max_depth': 7,
+  'xgboost.min_child_weight': 29.53901425992181,
+  'xgboost.nrounds': 12,
+  'xgboost.subsample': 0.2534476659054321,
+})
+",0.38990337
+2024-10-22,13:45:09,Successive Halving,0,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'rpart.cp': 0.06732408030358261,
+  'rpart.maxdepth': 30,
+  'rpart.minbucket': 8,
+  'rpart.minsplit': 17,
+  'task_id': '40536',
+  'trainsize': 0.3434187323027251,
+})
+",0.45831478
+2024-10-22,13:45:09,Successive Halving,Final,0,Best configuration,"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 5,
+  'svm.cost': 0.40643589935959645,
+  'svm.gamma': 3030.501386067773,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.027569022092727397,
+  'task_id': '4154',
+  'trainsize': 0.31344582312352953,
+})
+",0.012154462
+2024-10-22,13:45:09,UTS,6,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 72,
+  'ranger.mtry.power': 0.5126249119188758,
+  'ranger.num.random.splits': 24,
+  'ranger.num.trees': 954,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.4629546385574186,
+  'ranger.splitrule': 'extratrees',
+  'repl': 5,
+  'task_id': '1464',
+  'trainsize': 0.23384560462610118,
+})
+",0.54376835
+2024-10-22,13:45:09,UTS,6,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 72,
+  'ranger.mtry.power': 0.5126249119188758,
+  'ranger.num.random.splits': 24,
+  'ranger.num.trees': 954,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.4629546385574186,
+  'ranger.splitrule': 'extratrees',
+  'repl': 5,
+  'task_id': '1464',
+  'trainsize': 0.23384560462610118,
+})
+",0.54376835
+2024-10-22,13:45:09,UTS,6,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 72,
+  'ranger.mtry.power': 0.5126249119188758,
+  'ranger.num.random.splits': 24,
+  'ranger.num.trees': 954,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.4629546385574186,
+  'ranger.splitrule': 'extratrees',
+  'repl': 5,
+  'task_id': '1464',
+  'trainsize': 0.23384560462610118,
+})
+",0.54376835
+2024-10-22,13:45:09,UTS,6,3,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 72,
+  'ranger.mtry.power': 0.5126249119188758,
+  'ranger.num.random.splits': 24,
+  'ranger.num.trees': 954,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.4629546385574186,
+  'ranger.splitrule': 'extratrees',
+  'repl': 5,
+  'task_id': '1464',
+  'trainsize': 0.23384560462610118,
+})
+",0.54376835
+2024-10-22,13:45:09,UTS,6,4,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 72,
+  'ranger.mtry.power': 0.5126249119188758,
+  'ranger.num.random.splits': 24,
+  'ranger.num.trees': 954,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.4629546385574186,
+  'ranger.splitrule': 'extratrees',
+  'repl': 5,
+  'task_id': '1464',
+  'trainsize': 0.23384560462610118,
+})
+",0.54376835
+2024-10-22,13:45:09,UTS,6,5,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 72,
+  'ranger.mtry.power': 0.5126249119188758,
+  'ranger.num.random.splits': 24,
+  'ranger.num.trees': 954,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.4629546385574186,
+  'ranger.splitrule': 'extratrees',
+  'repl': 5,
+  'task_id': '1464',
+  'trainsize': 0.23384560462610118,
+})
+",0.54376835
+2024-10-22,13:45:09,UTS,6,6,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 72,
+  'ranger.mtry.power': 0.5126249119188758,
+  'ranger.num.random.splits': 24,
+  'ranger.num.trees': 954,
+  'ranger.respect.unordered.factors': 'partition',
+  'ranger.sample.fraction': 0.4629546385574186,
+  'ranger.splitrule': 'extratrees',
+  'repl': 5,
+  'task_id': '1464',
+  'trainsize': 0.23384560462610118,
+})
+",0.54376835
+2024-10-22,13:45:09,UTS,5,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.hist',
+  'ranger.min.node.size': 64,
+  'ranger.mtry.power': 0.7172013453583379,
+  'ranger.num.random.splits': 55,
+  'ranger.num.trees': 42,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.492821161730421,
+  'ranger.splitrule': 'extratrees',
+  'repl': 8,
+  'task_id': '3',
+  'trainsize': 0.5997219418737723,
+})
+",0.19207819
+2024-10-22,13:45:09,UTS,5,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.hist',
+  'ranger.min.node.size': 64,
+  'ranger.mtry.power': 0.7172013453583379,
+  'ranger.num.random.splits': 55,
+  'ranger.num.trees': 42,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.492821161730421,
+  'ranger.splitrule': 'extratrees',
+  'repl': 8,
+  'task_id': '3',
+  'trainsize': 0.5997219418737723,
+})
+",0.19207819
+2024-10-22,13:45:09,UTS,5,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.hist',
+  'ranger.min.node.size': 64,
+  'ranger.mtry.power': 0.7172013453583379,
+  'ranger.num.random.splits': 55,
+  'ranger.num.trees': 42,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.492821161730421,
+  'ranger.splitrule': 'extratrees',
+  'repl': 8,
+  'task_id': '3',
+  'trainsize': 0.5997219418737723,
+})
+",0.19207819
+2024-10-22,13:45:09,UTS,5,3,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.hist',
+  'ranger.min.node.size': 64,
+  'ranger.mtry.power': 0.7172013453583379,
+  'ranger.num.random.splits': 55,
+  'ranger.num.trees': 42,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.492821161730421,
+  'ranger.splitrule': 'extratrees',
+  'repl': 8,
+  'task_id': '3',
+  'trainsize': 0.5997219418737723,
+})
+",0.19207819
+2024-10-22,13:45:09,UTS,5,4,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.hist',
+  'ranger.min.node.size': 64,
+  'ranger.mtry.power': 0.7172013453583379,
+  'ranger.num.random.splits': 55,
+  'ranger.num.trees': 42,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.492821161730421,
+  'ranger.splitrule': 'extratrees',
+  'repl': 8,
+  'task_id': '3',
+  'trainsize': 0.5997219418737723,
+})
+",0.19207819
+2024-10-22,13:45:09,UTS,5,5,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.hist',
+  'ranger.min.node.size': 64,
+  'ranger.mtry.power': 0.7172013453583379,
+  'ranger.num.random.splits': 55,
+  'ranger.num.trees': 42,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.492821161730421,
+  'ranger.splitrule': 'extratrees',
+  'repl': 8,
+  'task_id': '3',
+  'trainsize': 0.5997219418737723,
+})
+",0.19207819
+2024-10-22,13:45:09,UTS,4,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.median',
+  'ranger.min.node.size': 79,
+  'ranger.mtry.power': 0.006892502754805796,
+  'ranger.num.trees': 225,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.8478042382577219,
+  'ranger.splitrule': 'gini',
+  'repl': 1,
+  'task_id': '1486',
+  'trainsize': 0.8386050537480527,
+})
+",0.26801217
+2024-10-22,13:45:09,UTS,4,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.median',
+  'ranger.min.node.size': 79,
+  'ranger.mtry.power': 0.006892502754805796,
+  'ranger.num.trees': 225,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.8478042382577219,
+  'ranger.splitrule': 'gini',
+  'repl': 1,
+  'task_id': '1486',
+  'trainsize': 0.8386050537480527,
+})
+",0.26801217
+2024-10-22,13:45:09,UTS,4,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.median',
+  'ranger.min.node.size': 79,
+  'ranger.mtry.power': 0.006892502754805796,
+  'ranger.num.trees': 225,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.8478042382577219,
+  'ranger.splitrule': 'gini',
+  'repl': 1,
+  'task_id': '1486',
+  'trainsize': 0.8386050537480527,
+})
+",0.26801217
+2024-10-22,13:45:09,UTS,4,3,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.median',
+  'ranger.min.node.size': 79,
+  'ranger.mtry.power': 0.006892502754805796,
+  'ranger.num.trees': 225,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.8478042382577219,
+  'ranger.splitrule': 'gini',
+  'repl': 1,
+  'task_id': '1486',
+  'trainsize': 0.8386050537480527,
+})
+",0.26801217
+2024-10-22,13:45:09,UTS,4,4,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.median',
+  'ranger.min.node.size': 79,
+  'ranger.mtry.power': 0.006892502754805796,
+  'ranger.num.trees': 225,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.8478042382577219,
+  'ranger.splitrule': 'gini',
+  'repl': 1,
+  'task_id': '1486',
+  'trainsize': 0.8386050537480527,
+})
+",0.26801217
+2024-10-22,13:45:09,UTS,3,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.3423337916248608,
+  'glmnet.s': 0.0017703510446114388,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '44',
+  'trainsize': 0.8480039605787058,
+})
+",0.46921203
+2024-10-22,13:45:09,UTS,3,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.3423337916248608,
+  'glmnet.s': 0.0017703510446114388,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '44',
+  'trainsize': 0.8480039605787058,
+})
+",0.46921203
+2024-10-22,13:45:09,UTS,3,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.3423337916248608,
+  'glmnet.s': 0.0017703510446114388,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '44',
+  'trainsize': 0.8480039605787058,
+})
+",0.46921203
+2024-10-22,13:45:09,UTS,3,3,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.3423337916248608,
+  'glmnet.s': 0.0017703510446114388,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '44',
+  'trainsize': 0.8480039605787058,
+})
+",0.46921203
+2024-10-22,13:45:09,UTS,2,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 4,
+  'task_id': '14',
+  'trainsize': 0.49787576021307156,
+  'xgboost.alpha': 0.006461609479606128,
+  'xgboost.booster': 'dart',
+  'xgboost.colsample_bylevel': 0.9746427689662208,
+  'xgboost.colsample_bytree': 0.6434431616611921,
+  'xgboost.eta': 0.02040894851320877,
+  'xgboost.gamma': 4.628490624215545e-05,
+  'xgboost.lambda': 0.3656804502180486,
+  'xgboost.max_depth': 12,
+  'xgboost.min_child_weight': 22.366071017697735,
+  'xgboost.nrounds': 1200,
+  'xgboost.rate_drop': 0.021345785859240185,
+  'xgboost.skip_drop': 0.5985354176094271,
+  'xgboost.subsample': 0.5268113888316663,
+})
+",1.7317977
+2024-10-22,13:45:09,UTS,2,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.7480964256943742,
+  'glmnet.s': 0.0013881908479916973,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 10,
+  'task_id': '41162',
+  'trainsize': 0.9960333160518633,
+})
+",0.36067456
+2024-10-22,13:45:09,UTS,2,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 4,
+  'task_id': '14',
+  'trainsize': 0.49787576021307156,
+  'xgboost.alpha': 0.006461609479606128,
+  'xgboost.booster': 'dart',
+  'xgboost.colsample_bylevel': 0.9746427689662208,
+  'xgboost.colsample_bytree': 0.6434431616611921,
+  'xgboost.eta': 0.02040894851320877,
+  'xgboost.gamma': 4.628490624215545e-05,
+  'xgboost.lambda': 0.3656804502180486,
+  'xgboost.max_depth': 12,
+  'xgboost.min_child_weight': 22.366071017697735,
+  'xgboost.nrounds': 1200,
+  'xgboost.rate_drop': 0.021345785859240185,
+  'xgboost.skip_drop': 0.5985354176094271,
+  'xgboost.subsample': 0.5268113888316663,
+})
+",1.7317977
+2024-10-22,13:45:09,UTS,1,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 26,
+  'aknn.distance': 'ip',
+  'aknn.ef': 206,
+  'aknn.ef_construction': 280,
+  'aknn.k': 49,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 6,
+  'task_id': '1050',
+  'trainsize': 0.3553246136240412,
+})
+",0.39217147
+2024-10-22,13:45:09,UTS,1,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.4279034370824596,
+  'glmnet.s': 0.1682452671435223,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 3,
+  'task_id': '182',
+  'trainsize': 0.6814117770312751,
+})
+",0.9562071
+2024-10-22,13:45:09,UTS,0,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 1,
+  'task_id': '40900',
+  'trainsize': 0.8565777832160989,
+  'xgboost.alpha': 81.74947391448588,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.002739650850008765,
+  'xgboost.nrounds': 872,
+  'xgboost.subsample': 0.16069070836614466,
+})
+",0.05552751
+2024-10-22,13:45:09,UTS,Final,0,Best configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 1,
+  'task_id': '40900',
+  'trainsize': 0.8565777832160989,
+  'xgboost.alpha': 81.74947391448588,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.002739650850008765,
+  'xgboost.nrounds': 872,
+  'xgboost.subsample': 0.16069070836614466,
+})
+",0.05552751
+2024-10-22,13:45:09,Successive Halving,6,0,Initial configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 3,
+  'rpart.cp': 0.0804547812329027,
+  'rpart.maxdepth': 4,
+  'rpart.minbucket': 38,
+  'rpart.minsplit': 54,
+  'task_id': '1497',
+  'trainsize': 0.7626598381577194,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,6,0,Discarded,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 3,
+  'rpart.cp': 0.0804547812329027,
+  'rpart.maxdepth': 4,
+  'rpart.minbucket': 38,
+  'rpart.minsplit': 54,
+  'task_id': '1497',
+  'trainsize': 0.7626598381577194,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,6,0,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,6,1,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,3,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,4,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,5,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,6,6,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,0,Initial configuration,"Configuration(values={
+  'aknn.M': 36,
+  'aknn.distance': 'l2',
+  'aknn.ef': 163,
+  'aknn.ef_construction': 31,
+  'aknn.k': 47,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 6,
+  'task_id': '42',
+  'trainsize': 0.08436438379612027,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,5,0,Discarded,"Configuration(values={
+  'aknn.M': 36,
+  'aknn.distance': 'l2',
+  'aknn.ef': 163,
+  'aknn.ef_construction': 31,
+  'aknn.k': 47,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 6,
+  'task_id': '42',
+  'trainsize': 0.08436438379612027,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,5,0,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,5,1,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,3,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,4,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,5,5,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,4,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 1,
+  'task_id': '1053',
+  'trainsize': 0.16607594956778843,
+  'xgboost.alpha': 32.320272125078894,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.08261018222406609,
+  'xgboost.nrounds': 296,
+  'xgboost.subsample': 0.13419588354375017,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,4,0,Discarded,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 1,
+  'task_id': '1053',
+  'trainsize': 0.16607594956778843,
+  'xgboost.alpha': 32.320272125078894,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 0.08261018222406609,
+  'xgboost.nrounds': 296,
+  'xgboost.subsample': 0.13419588354375017,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,4,0,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,4,1,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,4,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,4,3,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,4,4,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,3,0,Initial configuration,"Configuration(values={
+  'glmnet.alpha': 0.4945006995374791,
+  'glmnet.s': 2.199339275526413,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 6,
+  'task_id': '1515',
+  'trainsize': 0.6642555392047083,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,3,0,Discarded,"Configuration(values={
+  'glmnet.alpha': 0.4945006995374791,
+  'glmnet.s': 2.199339275526413,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 6,
+  'task_id': '1515',
+  'trainsize': 0.6642555392047083,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,3,0,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,3,1,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,3,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,3,3,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,2,0,Initial configuration,"Configuration(values={
+  'glmnet.alpha': 0.7810621872224026,
+  'glmnet.s': 95.45317857434982,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'task_id': '1515',
+  'trainsize': 0.4797630753842904,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,2,0,Initial configuration,"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 39,
+  'ranger.mtry.power': 0.4692071570049977,
+  'ranger.num.trees': 1929,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.8677015504563192,
+  'ranger.splitrule': 'gini',
+  'repl': 6,
+  'task_id': '6',
+  'trainsize': 0.6431132247195566,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,2,0,Discarded,"Configuration(values={
+  'learner_id': 'ranger',
+  'num.impute.selected.cpo': 'impute.mean',
+  'ranger.min.node.size': 39,
+  'ranger.mtry.power': 0.4692071570049977,
+  'ranger.num.trees': 1929,
+  'ranger.respect.unordered.factors': 'ignore',
+  'ranger.sample.fraction': 0.8677015504563192,
+  'ranger.splitrule': 'gini',
+  'repl': 6,
+  'task_id': '6',
+  'trainsize': 0.6431132247195566,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,2,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.7810621872224026,
+  'glmnet.s': 95.45317857434982,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'task_id': '1515',
+  'trainsize': 0.4797630753842904,
+})
+",0.35269135
+2024-10-22,13:45:09,Successive Halving,2,1,Discarded,"Configuration(values={
+  'glmnet.alpha': 0.7810621872224026,
+  'glmnet.s': 95.45317857434982,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'task_id': '1515',
+  'trainsize': 0.4797630753842904,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,2,1,Skipped,N/A,No valid configurations after top_k
+2024-10-22,13:45:09,Successive Halving,2,2,Skipped,N/A,No valid configurations
+2024-10-22,13:45:09,Successive Halving,1,0,Initial configuration,"Configuration(values={
+  'aknn.M': 48,
+  'aknn.distance': 'ip',
+  'aknn.ef': 240,
+  'aknn.ef_construction': 159,
+  'aknn.k': 40,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '40978',
+  'trainsize': 0.9701924005199247,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Initial configuration,"Configuration(values={
+  'glmnet.alpha': 0.034988738598725755,
+  'glmnet.s': 0.002042300422284483,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 1,
+  'task_id': '50',
+  'trainsize': 0.5775435275039124,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Initial configuration,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '23381',
+  'trainsize': 0.9264213021402737,
+  'xgboost.alpha': 55.318812110495195,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 1.9085788092345986,
+  'xgboost.nrounds': 2526,
+  'xgboost.subsample': 0.5297452600813588,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Initial configuration,"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'svm.cost': 1978.1810180199604,
+  'svm.kernel': 'linear',
+  'svm.tolerance': 0.9783419345729835,
+  'task_id': '23381',
+  'trainsize': 0.4680525783026317,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Discarded,"Configuration(values={
+  'learner_id': 'xgboost',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '23381',
+  'trainsize': 0.9264213021402737,
+  'xgboost.alpha': 55.318812110495195,
+  'xgboost.booster': 'gblinear',
+  'xgboost.lambda': 1.9085788092345986,
+  'xgboost.nrounds': 2526,
+  'xgboost.subsample': 0.5297452600813588,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Discarded,"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'svm.cost': 1978.1810180199604,
+  'svm.kernel': 'linear',
+  'svm.tolerance': 0.9783419345729835,
+  'task_id': '23381',
+  'trainsize': 0.4680525783026317,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 48,
+  'aknn.distance': 'ip',
+  'aknn.ef': 240,
+  'aknn.ef_construction': 159,
+  'aknn.k': 40,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '40978',
+  'trainsize': 0.9701924005199247,
+})
+",0.50044626
+2024-10-22,13:45:09,Successive Halving,1,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'svm.cost': 1978.1810180199604,
+  'svm.kernel': 'linear',
+  'svm.tolerance': 0.9783419345729835,
+  'task_id': '23381',
+  'trainsize': 0.4680525783026317,
+})
+",0.64952326
+2024-10-22,13:45:09,Successive Halving,1,1,Discarded,"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'svm.cost': 1978.1810180199604,
+  'svm.kernel': 'linear',
+  'svm.tolerance': 0.9783419345729835,
+  'task_id': '23381',
+  'trainsize': 0.4680525783026317,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,1,1,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 48,
+  'aknn.distance': 'ip',
+  'aknn.ef': 240,
+  'aknn.ef_construction': 159,
+  'aknn.k': 40,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'task_id': '40978',
+  'trainsize': 0.9701924005199247,
+})
+",0.50044626
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'rpart.cp': 0.0046853664588158905,
+  'rpart.maxdepth': 20,
+  'rpart.minbucket': 46,
+  'rpart.minsplit': 77,
+  'task_id': '41162',
+  'trainsize': 0.6971808243869365,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'aknn.M': 49,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 63,
+  'aknn.ef_construction': 19,
+  'aknn.k': 32,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'task_id': '29',
+  'trainsize': 0.2061549331954846,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'aknn.M': 48,
+  'aknn.distance': 'l2',
+  'aknn.ef': 65,
+  'aknn.ef_construction': 18,
+  'aknn.k': 17,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 2,
+  'task_id': '181',
+  'trainsize': 0.9281753082989272,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 5,
+  'rpart.cp': 0.0089949867704596,
+  'rpart.maxdepth': 9,
+  'rpart.minbucket': 90,
+  'rpart.minsplit': 44,
+  'task_id': '1040',
+  'trainsize': 0.9869364465252598,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 9,
+  'svm.cost': 0.10589847876942422,
+  'svm.gamma': 0.00046931238913151753,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.01311905962415287,
+  'task_id': '1063',
+  'trainsize': 0.9694801360995161,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 2,
+  'rpart.cp': 0.05786881027828506,
+  'rpart.maxdepth': 13,
+  'rpart.minbucket': 26,
+  'rpart.minsplit': 18,
+  'task_id': '41157',
+  'trainsize': 0.44301305584535877,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Initial configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'rpart.cp': 0.002510587885271944,
+  'rpart.maxdepth': 1,
+  'rpart.minbucket': 82,
+  'rpart.minsplit': 93,
+  'task_id': '40670',
+  'trainsize': 0.5177247327643371,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Discarded,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 5,
+  'rpart.cp': 0.0089949867704596,
+  'rpart.maxdepth': 9,
+  'rpart.minbucket': 90,
+  'rpart.minsplit': 44,
+  'task_id': '1040',
+  'trainsize': 0.9869364465252598,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Discarded,"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 9,
+  'svm.cost': 0.10589847876942422,
+  'svm.gamma': 0.00046931238913151753,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.01311905962415287,
+  'task_id': '1063',
+  'trainsize': 0.9694801360995161,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Discarded,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 2,
+  'rpart.cp': 0.05786881027828506,
+  'rpart.maxdepth': 13,
+  'rpart.minbucket': 26,
+  'rpart.minsplit': 18,
+  'task_id': '41157',
+  'trainsize': 0.44301305584535877,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Discarded,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 5,
+  'rpart.cp': 0.002510587885271944,
+  'rpart.maxdepth': 1,
+  'rpart.minbucket': 82,
+  'rpart.minsplit': 93,
+  'task_id': '40670',
+  'trainsize': 0.5177247327643371,
+})
+",N/A
+2024-10-22,13:45:09,Successive Halving,0,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 5,
+  'rpart.cp': 0.0089949867704596,
+  'rpart.maxdepth': 9,
+  'rpart.minbucket': 90,
+  'rpart.minsplit': 44,
+  'task_id': '1040',
+  'trainsize': 0.9869364465252598,
+})
+",0.07207055
+2024-10-22,13:45:09,Successive Halving,0,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'rpart.cp': 0.0046853664588158905,
+  'rpart.maxdepth': 20,
+  'rpart.minbucket': 46,
+  'rpart.minsplit': 77,
+  'task_id': '41162',
+  'trainsize': 0.6971808243869365,
+})
+",0.34565008
+2024-10-22,13:45:09,Successive Halving,0,0,Remaining (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 9,
+  'svm.cost': 0.10589847876942422,
+  'svm.gamma': 0.00046931238913151753,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.01311905962415287,
+  'task_id': '1063',
+  'trainsize': 0.9694801360995161,
+})
+",0.4540409
+2024-10-22,13:45:09,Successive Halving,Final,0,Best configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 5,
+  'rpart.cp': 0.0089949867704596,
+  'rpart.maxdepth': 9,
+  'rpart.minbucket': 90,
+  'rpart.minsplit': 44,
+  'task_id': '1040',
+  'trainsize': 0.9869364465252598,
+})
+",0.07207055
+2024-10-22,13:45:09,UTS,6,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.6151204588803401,
+  'glmnet.s': 0.01034449118565804,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 9,
+  'task_id': '1478',
+  'trainsize': 0.5740644821349227,
+})
+",0.6501901
+2024-10-22,13:45:09,UTS,6,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.6151204588803401,
+  'glmnet.s': 0.01034449118565804,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 9,
+  'task_id': '1478',
+  'trainsize': 0.5740644821349227,
+})
+",0.6501901
+2024-10-22,13:45:09,UTS,6,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.6151204588803401,
+  'glmnet.s': 0.01034449118565804,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 9,
+  'task_id': '1478',
+  'trainsize': 0.5740644821349227,
+})
+",0.6501901
+2024-10-22,13:45:09,UTS,6,3,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.6151204588803401,
+  'glmnet.s': 0.01034449118565804,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 9,
+  'task_id': '1478',
+  'trainsize': 0.5740644821349227,
+})
+",0.6501901
+2024-10-22,13:45:09,UTS,6,4,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.6151204588803401,
+  'glmnet.s': 0.01034449118565804,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 9,
+  'task_id': '1478',
+  'trainsize': 0.5740644821349227,
+})
+",0.6501901
+2024-10-22,13:45:09,UTS,6,5,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.6151204588803401,
+  'glmnet.s': 0.01034449118565804,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 9,
+  'task_id': '1478',
+  'trainsize': 0.5740644821349227,
+})
+",0.6501901
+2024-10-22,13:45:09,UTS,6,6,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.6151204588803401,
+  'glmnet.s': 0.01034449118565804,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 9,
+  'task_id': '1478',
+  'trainsize': 0.5740644821349227,
+})
+",0.6501901
+2024-10-22,13:45:09,UTS,5,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 30,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 24,
+  'aknn.ef_construction': 192,
+  'aknn.k': 43,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '60',
+  'trainsize': 0.7682170945710154,
+})
+",0.41583997
+2024-10-22,13:45:09,UTS,5,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 30,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 24,
+  'aknn.ef_construction': 192,
+  'aknn.k': 43,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '60',
+  'trainsize': 0.7682170945710154,
+})
+",0.41583997
+2024-10-22,13:45:09,UTS,5,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 30,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 24,
+  'aknn.ef_construction': 192,
+  'aknn.k': 43,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '60',
+  'trainsize': 0.7682170945710154,
+})
+",0.41583997
+2024-10-22,13:45:09,UTS,5,3,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 30,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 24,
+  'aknn.ef_construction': 192,
+  'aknn.k': 43,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '60',
+  'trainsize': 0.7682170945710154,
+})
+",0.41583997
+2024-10-22,13:45:09,UTS,5,4,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 30,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 24,
+  'aknn.ef_construction': 192,
+  'aknn.k': 43,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '60',
+  'trainsize': 0.7682170945710154,
+})
+",0.41583997
+2024-10-22,13:45:09,UTS,5,5,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 30,
+  'aknn.distance': 'cosine',
+  'aknn.ef': 24,
+  'aknn.ef_construction': 192,
+  'aknn.k': 43,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 9,
+  'task_id': '60',
+  'trainsize': 0.7682170945710154,
+})
+",0.41583997
+2024-10-22,13:45:09,UTS,4,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'svm.cost': 187.88851557786177,
+  'svm.degree': 4,
+  'svm.kernel': 'polynomial',
+  'svm.tolerance': 8.131028497439725e-05,
+  'task_id': '41143',
+  'trainsize': 0.5690506550456823,
+})
+",0.60654336
+2024-10-22,13:45:09,UTS,4,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'svm.cost': 187.88851557786177,
+  'svm.degree': 4,
+  'svm.kernel': 'polynomial',
+  'svm.tolerance': 8.131028497439725e-05,
+  'task_id': '41143',
+  'trainsize': 0.5690506550456823,
+})
+",0.60654336
+2024-10-22,13:45:09,UTS,4,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'svm.cost': 187.88851557786177,
+  'svm.degree': 4,
+  'svm.kernel': 'polynomial',
+  'svm.tolerance': 8.131028497439725e-05,
+  'task_id': '41143',
+  'trainsize': 0.5690506550456823,
+})
+",0.60654336
+2024-10-22,13:45:09,UTS,4,3,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'svm.cost': 187.88851557786177,
+  'svm.degree': 4,
+  'svm.kernel': 'polynomial',
+  'svm.tolerance': 8.131028497439725e-05,
+  'task_id': '41143',
+  'trainsize': 0.5690506550456823,
+})
+",0.60654336
+2024-10-22,13:45:09,UTS,4,4,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 8,
+  'svm.cost': 187.88851557786177,
+  'svm.degree': 4,
+  'svm.kernel': 'polynomial',
+  'svm.tolerance': 8.131028497439725e-05,
+  'task_id': '41143',
+  'trainsize': 0.5690506550456823,
+})
+",0.60654336
+2024-10-22,13:45:09,UTS,3,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.16951425258953556,
+  'glmnet.s': 0.11574149358371942,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 5,
+  'task_id': '29',
+  'trainsize': 0.08119519067705529,
+})
+",0.7067392
+2024-10-22,13:45:09,UTS,3,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.16951425258953556,
+  'glmnet.s': 0.11574149358371942,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 5,
+  'task_id': '29',
+  'trainsize': 0.08119519067705529,
+})
+",0.7067392
+2024-10-22,13:45:09,UTS,3,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.16951425258953556,
+  'glmnet.s': 0.11574149358371942,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 5,
+  'task_id': '29',
+  'trainsize': 0.08119519067705529,
+})
+",0.7067392
+2024-10-22,13:45:09,UTS,3,3,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.16951425258953556,
+  'glmnet.s': 0.11574149358371942,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 5,
+  'task_id': '29',
+  'trainsize': 0.08119519067705529,
+})
+",0.7067392
+2024-10-22,13:45:09,UTS,2,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 38,
+  'aknn.distance': 'l2',
+  'aknn.ef': 174,
+  'aknn.ef_construction': 66,
+  'aknn.k': 43,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 2,
+  'task_id': '14',
+  'trainsize': 0.8500922130300554,
+})
+",0.6357417
+2024-10-22,13:45:09,UTS,2,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.029299861069190136,
+  'glmnet.s': 0.504416912093982,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 6,
+  'task_id': '375',
+  'trainsize': 0.5896312242443406,
+})
+",0.44518
+2024-10-22,13:45:09,UTS,2,2,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'glmnet.alpha': 0.029299861069190136,
+  'glmnet.s': 0.504416912093982,
+  'learner_id': 'glmnet',
+  'num.impute.selected.cpo': 'impute.mean',
+  'repl': 6,
+  'task_id': '375',
+  'trainsize': 0.5896312242443406,
+})
+",0.44518
+2024-10-22,13:45:09,UTS,1,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'aknn.M': 24,
+  'aknn.distance': 'l2',
+  'aknn.ef': 111,
+  'aknn.ef_construction': 339,
+  'aknn.k': 16,
+  'learner_id': 'aknn',
+  'num.impute.selected.cpo': 'impute.median',
+  'repl': 1,
+  'task_id': '188',
+  'trainsize': 0.9837498219677879,
+})
+",2.0560117
+2024-10-22,13:45:09,UTS,1,1,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 7,
+  'rpart.cp': 0.011563065039000193,
+  'rpart.maxdepth': 27,
+  'rpart.minbucket': 60,
+  'rpart.minsplit': 3,
+  'task_id': '1487',
+  'trainsize': 0.1439040726848111,
+})
+",0.25348663
+2024-10-22,13:45:09,UTS,0,0,Evaluated (Computation Time: 0.00s),"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 4,
+  'svm.cost': 25.702853010330955,
+  'svm.gamma': 4110.4923194634775,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.0007990950912075347,
+  'task_id': '41169',
+  'trainsize': 0.12430330926658899,
+})
+",2.2177424
+2024-10-22,13:45:09,UTS,Final,0,Best configuration,"Configuration(values={
+  'learner_id': 'rpart',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 7,
+  'rpart.cp': 0.011563065039000193,
+  'rpart.maxdepth': 27,
+  'rpart.minbucket': 60,
+  'rpart.minsplit': 3,
+  'task_id': '1487',
+  'trainsize': 0.1439040726848111,
+})
+",0.25348663
+2024-10-22,13:45:09,Successive Halving,Overall Best,0,Overall Best Configuration,"Configuration(values={
+  'learner_id': 'svm',
+  'num.impute.selected.cpo': 'impute.hist',
+  'repl': 5,
+  'svm.cost': 0.40643589935959645,
+  'svm.gamma': 3030.501386067773,
+  'svm.kernel': 'radial',
+  'svm.tolerance': 0.027569022092727397,
+  'task_id': '4154',
+  'trainsize': 0.31344582312352953,
+})
+",0.012154462
