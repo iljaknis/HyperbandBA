@@ -1,4 +1,3 @@
-import time
 import numpy as np
 from yahpo_gym import local_config, BenchmarkSet
 import ConfigSpace as CS
